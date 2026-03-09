@@ -1,4 +1,18 @@
-.venv
-__pycache__
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Vector database
+data/chroma/
+
+# Personal documents
+knowledge_base/
+
+# Environment variables
 .env
-data
